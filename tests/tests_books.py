@@ -63,3 +63,4 @@ class TestAddBook:
         books_collector.add_book_in_favorites('Алиса в стране чудес')
         assert books_collector.get_list_of_favorites_books() == ['Гарри Поттер', 'Алиса в стране чудес']
 
+
